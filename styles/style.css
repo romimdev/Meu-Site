@@ -53,9 +53,10 @@ body {
 
 .apresentacao__fotoperfil__curriculo {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     flex-direction: column;
     gap: 80px;
+    width: 350px;
 }
 
 .curriculo__titulo {
@@ -65,6 +66,7 @@ body {
     display: flex;
     color: var(--cor-secundaria);
 }
+
 
 .curriculo__informacoes {
     font-family: 'Montserrat',sans-serif;
