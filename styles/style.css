@@ -23,10 +23,12 @@ body {
 } 
 
 .cabecalho {
-    padding: 3% 0 0 12%; 
+    padding: 2% 0 2% 12%; 
+    background-color: var(--cor-terciaria);
  }
 
  .cabecalho__menu {
+    background-color: var(--cor-terciaria);
     display: flex;
     gap: 50px;
  }
@@ -35,34 +37,19 @@ body {
     font-family: 'Montserrat',sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     text-decoration: none;
 
 }
 
 .curriculo {
-    padding: 5% 10%;
-}
-
-.apresentacao__fotoperfil {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-    padding: 0 65% 0;
-}
-
-.apresentacao__fotoperfil__curriculo {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    gap: 80px;
-    width: 350px;
+    margin: 0 5%;
 }
 
 .curriculo__titulo {
     font-size: 1.85rem;
     font-family: 'Krona One', sans-serif;
-    padding: 8% 0 0 0;
+    padding: 4% 0 0 0;
     display: flex;
     color: var(--cor-secundaria);
 }
@@ -75,7 +62,7 @@ body {
     color: var(--cor-terciaria);
     flex-direction: column;
     text-decoration: none;
-    padding: 2%;
+    margin: 2% 0 0 0;
     
 }
 
@@ -85,8 +72,8 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    padding-left: 2%;
-    padding: 1%;
+    margin: 3% 0 4% 0;
+
 }
 
 .sobre__mim {
@@ -102,8 +89,7 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    padding: 5%;
-    padding-bottom: 23.3%;
+    margin: 0 2% 5% 3%;
 }
 
 
@@ -128,6 +114,7 @@ body {
     color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__texto {
+    margin: 1em;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     color: var(--cor-secundaria);
@@ -146,6 +133,7 @@ font-family: 'Krona One', sans-serif;
 font-weight: 400;
 font-size: 1.5rem;
 color: var(--cor-secundaria);
+margin-bottom: 0.5em;
 }
 
 .apresentacao__link__redesociais {
@@ -202,6 +190,15 @@ background-color: var(--cor-hover);
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     gap: 32px;
+}
+
+.fotoperfil {
+    margin: 0 0 12em 1em;
+    width: 55%;
+}
+
+.fotoperfilabout {
+    margin: 2%;
 }
 
 @media (max-width: 1200px) {
